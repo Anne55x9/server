@@ -32,7 +32,7 @@ server.post('/upload', upload);
 
 //// Start server using command line $ node server.js
 
-server.listen(8000, () =>{
+server.listen(3000, () =>{
  console.log('Server started!')
 })
 
