@@ -31,7 +31,7 @@ module.exports = function upload(req, res) {
         //// To do something with them, copy them from there using the node.js file-system API.
     
         console.log('file', file.name);
-        readStream = fs.createdReadStream(file.path);
+        readStream = fs.createReadStream(file.path);
 
     });
 
